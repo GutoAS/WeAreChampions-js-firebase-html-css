@@ -9,7 +9,6 @@ body {
 .container {
   width: 400px;
   margin: 0 auto;
-  border: 1px solid red;
   text-align: center;
   padding: 10px 50px;
 }
