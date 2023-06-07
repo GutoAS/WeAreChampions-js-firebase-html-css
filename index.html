@@ -5,9 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>We are Champions</title>
   </head>
   <body>
-    <script src="script.js"></script>
+    <div class="container">
+      <div class="container-input">
+        <img src="assets/freddie.png" alt="a vector image raising a hand" />
+        <h1>We are the Champions</h1>
+        <textarea name="message" id="textarea-el" cols="35" rows="6"></textarea>
+        <button id="btn-el">Publish</button>
+      </div>
+      <div>
+        <h2>- Endorsements -</h2>
+        <div id="message-el"></div>
+      </div>
+    </div>
+    <script src="script.js" type="module"></script>
   </body>
 </html>
